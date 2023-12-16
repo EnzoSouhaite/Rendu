@@ -54,6 +54,104 @@ nav a {
   padding-top: 5px;
 }
 .Titre{
-  padding-top: 85px;
+  padding-top: 90px;
   text-align: center;
+}
+
+.mon-img{
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 95px;
+  padding-left: 270px;
+}
+
+.mon-img2{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.mon-img3{
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 95px;
+  padding-left: 270px;
+}
+
+.mon-img4{
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.first-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 120px;
+}
+
+.hi {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 42%;
+}
+
+.hi p {
+  font-size: large;
+  width: 70%;
+}
+
+.second-section {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+.hi2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 43%;
+}
+
+.hi2 p {
+  font-size: large;
+  width: 70%;
+}
+
+.third-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 120px;
+}
+
+.hi3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 42%;
+}
+
+.hi3 p{
+  font-size: large;
+  width: 70%;
+}
+
+.fourth-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-right: 25px;
 }

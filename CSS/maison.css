@@ -53,12 +53,12 @@ nav a {
   background-color: rgb(65, 62, 106);
   padding-top: 5px;
 }
-.Titre{
+.Titre {
   padding-top: 90px;
   text-align: center;
 }
 
-.mon-img{
+.mon-img {
   flex: 1;
   display: flex;
   justify-content: left;
@@ -66,28 +66,13 @@ nav a {
   padding-top: 95px;
   padding-left: 270px;
 }
-
-.mon-img2{
-  flex: 1;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-.mon-img3{
+.mon-img3 {
   flex: 1;
   display: flex;
   justify-content: left;
   align-items: center;
   padding-top: 95px;
   padding-left: 270px;
-}
-
-.mon-img4{
-  flex: 1;
-  display: flex;
-  justify-content: right;
-  align-items: center;
 }
 
 .first-section {
@@ -110,19 +95,19 @@ nav a {
 }
 
 .second-section {
-  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   align-items: end;
   justify-content: center;
   padding-right: 25px;
+  width: 43%;
+  align-self: end;
 }
 
 .hi2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 43%;
 }
 
 .hi2 p {
@@ -137,14 +122,14 @@ nav a {
   padding-left: 120px;
 }
 
-.hi3{
+.hi3 {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 42%;
 }
 
-.hi3 p{
+.hi3 p {
   font-size: large;
   width: 70%;
 }
@@ -152,6 +137,25 @@ nav a {
 .fourth-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: right;
+  align-items: end;
+  justify-content: center;
   padding-right: 25px;
+  width: 43%;
+  align-self: end;
+}
+
+.hi4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi4 p {
+  font-size: large;
+  width: 70%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }

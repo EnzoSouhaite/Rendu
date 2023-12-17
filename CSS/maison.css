@@ -20,7 +20,8 @@ body {
 .content {
   position: absolute;
   height: 100vh;
-  overflow: scroll;
+  width: 100vw;
+  overflow-y: scroll;
   z-index: 999;
 }
 
@@ -45,6 +46,7 @@ nav {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -96,29 +98,25 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 120px;
+  align-items: center;
 }
 
 .hi {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 42%;
 }
 
 .hi p {
   font-size: large;
-  width: 70%;
+  width: 60%;
 }
 
 .second-section {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: center;
   justify-content: center;
-  padding-right: 25px;
-  width: 43%;
-  align-self: end;
 }
 
 .hi2 {
@@ -136,14 +134,13 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 120px;
+  align-items: center;
 }
 
 .hi3 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 42%;
 }
 
 .hi3 p {
@@ -154,11 +151,8 @@ nav a {
 .fourth-section {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: center;
   justify-content: center;
-  padding-right: 25px;
-  width: 43%;
-  align-self: end;
 }
 
 .hi4 {
@@ -172,9 +166,36 @@ nav a {
   width: 70%;
 }
 
+main > section > img {
+  width: 200px;
+}
+
+main > section > div {
+  flex: 1;
+}
+
 main {
   display: flex;
   flex-direction: column;
+  padding: 0px 30px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  main > section > div {
+    flex: unset;
+  }
+  main > section {
+    justify-content: center !important;
+  }
+
+  main > section > div {
+    align-items: center !important;
+  }
+
+  main > section > div > p {
+    width: 70% !important;
+  }
 }
 
 .navbar_down {

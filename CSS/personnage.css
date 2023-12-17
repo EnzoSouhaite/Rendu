@@ -5,6 +5,23 @@ a {
 
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/3vjglYWTc0svDmPj6OB0QN/95c4a868036f5280219ca57bff4bbe8d/release_1_platform_9_3-4.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  position: absolute;
+  height: 100vh;
+  overflow: scroll;
+  z-index: 999;
 }
 
 ul {
@@ -52,4 +69,141 @@ nav a {
 .logo {
   background-color: rgb(65, 62, 106);
   padding-top: 5px;
+}
+
+.Titre {
+  padding-top: 85px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+  gap: 10px;
+}
+
+.Perso_1 {
+  padding-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  padding-right: 25px;
+  width: 43%;
+  align-self: end;
+}
+
+.hi {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi p {
+  font-size: large;
+  width: 60%;
+}
+
+.Perso_2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+  width: 43%;
+  align-self: end;
+}
+
+.hi2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi2 p {
+  font-size: large;
+  width: 60%;
+}
+
+.Perso_3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  align-self: end;
+}
+
+.hi3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi3 p {
+  font-size: large;
+  width: 100%;
+}
+
+.Perso_4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  align-self: end;
+}
+
+.hi4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi4 p {
+  font-size: large;
+  width: 60%;
+}
+
+.Perso_5 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  align-self: end;
+}
+
+.hi5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi5 p {
+  font-size: large;
+  width: 60%;
+}
+
+.Perso_6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 43%;
+  align-self: end;
+}
+
+.hi6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hi6 p {
+  font-size: large;
+  width: 60%;
 }

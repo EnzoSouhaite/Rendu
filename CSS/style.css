@@ -5,6 +5,23 @@ a {
 
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  background-image: url(https://www.numerama.com/wp-content/uploads/2023/02/img-1558.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  position: absolute;
+  height: 100vh;
+  overflow: scroll;
+  z-index: 999;
 }
 
 ul {
@@ -46,7 +63,7 @@ nav i {
 }
 
 nav a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .logo {

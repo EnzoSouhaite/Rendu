@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Les Personnages</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <section class="content">
+      <header>
+        <div class="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Harry_Potter_wordmark.svg/1024px-Harry_Potter_wordmark.svg.png"
+            alt="Harry Potter"
+            width="200"
+          />
+        </div>
+        <nav class="navbar" style="z-index: 999">
+          <ul class="nav-links">
+            <li>
+              <a href="index.html"><i class="fa-solid fa-house"></i>Accueil</a>
+            </li>
+            <li>
+              <a href="Maison.html"
+                ><i class="fa-solid fa-school"></i>Les Maisons</a
+              >
+            </li>
+            <li>
+              <a href="Formulaire.html"
+                ><i class="fa-solid fa-person-half-dress"></i>Formulaire</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- Début Partie Node.js -->
+        <div class="message-error">
+          <ul></ul>
+        </div>
+        <div class="message-success">Formulaire envoyé avec succès !</div>
+        <form action="" method="post" enctype="multipart/form-data">
+          <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" />
+          </div>
+
+          <div>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div>
+            <label>Classe actuelle :</label>
+            <input type="radio" id="1ere" name="classe" value="1ere" /><label
+              for="1ere">1ère</label>
+            <input type="radio" id="tale" name="classe" value="tale" /><label
+              for="tale">Tale</label>
+          </div>
+
+          <button type="submit">S'inscrire</button>
+        </form>
+        <script src="formulaire.js"></script>
+      </main>
+      <!-- Fin Partie Node.js -->
+      <footer>
+        <nav class="navbar">
+          <p>
+            Toutes les Informations présenter sont a prendre avec des pincettes,
+            elle ne sont pas confirmer ni vérifier.
+          </p>
+          <ul class="nav-links">
+            <div class="footertext"></div>
+            <li>
+              <a href="https://c.clc2l.com/t/f/a/facebook-nJNpOF.png"
+                ><i class="fa-brands fa-facebook"></i>Retrouver Nous Sur
+                FaceBook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://play-lh.googleusercontent.com/fbrWR4LbtB_1Ulgz3_rw8bY3tx_zPU7A9ZOB5WYG_QmqOUUjA6JEzE_20GA4YBDWMx4=w240-h480-rw"
+                ><i class="fa-brands fa-discord"></i>Sur Discod aussi</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://assets-global.website-files.com/64760069e93084646c9ee428/64c2bb00cc53d81d58842318_og-twitter-x.png"
+                ><i class="fa-brands fa-square-x-twitter"></i>Et Pour Finir sur
+                X</a
+              >
+            </li>
+            <p>
+              Si Vous souhaitez regardés le film vous pouvez le voir
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">ici</a>
+            </p>
+          </ul>
+          <div class="toggle-darkmode">Modifier le mode</div>
+        </nav>
+      </footer>
+    </section>
+  </body>
+</html>

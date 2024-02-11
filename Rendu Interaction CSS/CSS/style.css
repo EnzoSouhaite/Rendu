@@ -1,0 +1,156 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+.darkmode p {
+  color: white;
+}
+
+nav a,
+.navbar_down a,
+.footertext {
+  color: black;
+}
+
+.darkmode nav a,
+.footertext {
+  color: white;
+}
+
+.content {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  z-index: 999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(67, 71, 114);
+}
+
+nav {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(65, 62, 106);
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav i {
+  color: goldenrod;
+  padding: 8px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  background-color: rgb(65, 62, 106);
+  padding-top: 5px;
+}
+
+.Titre {
+  padding-top: 85px;
+  text-align: center;
+  color: white;
+}
+
+.navbar_down {
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgb(65, 62, 106);
+}
+
+.navbar_down a {
+  color: black;
+}
+
+.footertext {
+  color: black;
+}
+
+main {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+/* Partie Cours Node.js */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.slide-dw {
+  background-image: url("https://www.top-parents.fr/wp-content/uploads/2023/12/WBST_HITS_14.11.23-2004-800x400.jpg");
+  background-size: cover;
+  opacity: 80%;
+}
+
+.slide-cd {
+  background-image: url("https://www.radiofrance.fr/s3/cruiser-production/2020/01/e0fe8c32-c135-4541-a29d-4b58e44ca8d2/870x489_photos-harry-potter-a-l-ecole-des-sorciers-17-ans-apres-les-eleves-de-poudlard-ont-bien-change.jpg");
+  background-size: cover;
+  opacity: 80%;
+}
+
+.slide-cdeb {
+  background-image: url("https://www.pyreneesinfotarbes.fr/wp-content/uploads/2023/04/studio-Warner-Bros-Harry-Potter-Londres-800x400.webp");
+  background-size: cover;
+  opacity: 80%;
+}
